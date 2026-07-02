@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "description": "A modest collection of personal AI research and coding-agent skills.",
-  "license": "SEE LICENSE IN NOTICE.md",
+  "license": "MIT",
   "scripts": {
     "list": "find skills -name SKILL.md | sort"
   }

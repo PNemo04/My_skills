@@ -139,8 +139,12 @@ GitHub repositories.
 
 This repository contains both my own small templates and skills originally
 created by other people or projects; I sincerely thank the original creators
-for sharing their work. See [`NOTICE.md`](NOTICE.md) for licensing notes.
+for sharing their work.
 
 If you reuse this repository, please review each skill before running it. Some
 skills are templates that expect you to fill in your own paths, hostnames,
 environment names, or project-specific details.
+
+## License
+
+MIT
