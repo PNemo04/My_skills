@@ -1,13 +1,11 @@
 # My Skills
 
-This is a modest collection of skills I use for research writing, paper
-polishing, small AI experiments, MATLAB work, and coding-agent workflows.
+This is a collection of skills I use for research writing, paper polishing,
+small AI experiments, MATLAB work, and coding-agent workflows.
 
-I am still a research beginner, so this repository is not meant to be an
-authoritative skill library. It is closer to a personal toolbox that I found
-useful while learning how to write papers, organize experiments, and work with
-AI coding agents. I am sharing it in case the structure or a few of the skills
-are useful to other students and early-stage researchers.
+As a communication engineering student, I organize this skill collection around
+learning and research at the intersection of computer science, communication
+engineering, and AI-assisted experimentation.
 
 ## What's Inside
 
@@ -25,31 +23,6 @@ Skills are organized by topic:
 | `skills/design` | Frontend design guidance. |
 | `skills/writing-polish` | Prompt improvement and human-style writing polish. |
 
-The repository follows a simple layout inspired by
-[`mattpocock/skills`](https://github.com/mattpocock/skills):
-
-```text
-skills/
-  category/
-    skill-name/
-      SKILL.md
-.claude-plugin/
-  plugin.json
-```
-
-## Privacy Changes
-
-Some skills came from my local `cc switch` setup. Before publishing, I removed
-the one private `experiment-preview-numbers` skill and sanitized personal
-machine details from:
-
-- `skills/experiment-ml/gpubox`
-- `skills/engineering/github-codex-key`
-
-The public `gpubox` skill is now a generic template for using a spare personal
-GPU computer over SSH. It does not assume my own hardware, hostname, user name,
-IP address, key path, or network setup.
-
 ## How To Use
 
 Use the skills with any agent or tool that understands `SKILL.md` directories.
@@ -63,8 +36,8 @@ GitHub repositories.
 ## Notes
 
 This repository contains both my own small templates and skills originally
-created by other people or projects. I am grateful to those creators. See
-[`NOTICE.md`](NOTICE.md) for attribution and licensing notes.
+created by other people or projects; I sincerely thank the original creators
+for sharing their work. See [`NOTICE.md`](NOTICE.md) for licensing notes.
 
 If you reuse this repository, please review each skill before running it. Some
 skills are templates that expect you to fill in your own paths, hostnames,
