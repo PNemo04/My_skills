@@ -41,6 +41,8 @@ npx skills@latest add PNemo04/My_skills
 
 ## Skill Index
 
+`\*` marks original skills or templates from my own workflow.
+
 ### Research Writing
 
 - [paper-spine](skills/research-writing/paper-spine/SKILL.md) - Write, rewrite, or build a paper or report (journal, conference, report, review, competition) end to end, then output LaTeX/PDF/Word.
@@ -60,7 +62,7 @@ npx skills@latest add PNemo04/My_skills
 
 ### Experiment & ML
 
-- [gpubox](skills/experiment-ml/gpubox/SKILL.md) - Run or feasibility-check ML experiments on a personal idle GPU computer reached over SSH.
+- [gpubox](skills/experiment-ml/gpubox/SKILL.md) \* - Run or feasibility-check ML experiments on a personal idle GPU computer reached over SSH.
 - [accelerate](skills/experiment-ml/accelerate/SKILL.md) - Simplest distributed training API.
 - [bitsandbytes](skills/experiment-ml/bitsandbytes/SKILL.md) - Quantizes LLMs to 8-bit or 4-bit for 50-75% memory reduction with minimal accuracy loss.
 - [lm-evaluation-harness](skills/experiment-ml/lm-evaluation-harness/SKILL.md) - Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag).
@@ -96,8 +98,8 @@ npx skills@latest add PNemo04/My_skills
 - [codebase-design](skills/engineering/codebase-design/SKILL.md) - Shared vocabulary for designing deep modules.
 - [diagnosing-bugs](skills/engineering/diagnosing-bugs/SKILL.md) - Diagnosis loop for hard bugs and performance regressions.
 - [domain-modeling](skills/engineering/domain-modeling/SKILL.md) - Build and sharpen a project's domain model.
-- [github-codex-key](skills/engineering/github-codex-key/SKILL.md) - Use a configured GitHub SSH key safely from Codex or another coding agent.
-- [github-ssh-key-push](skills/engineering/github-ssh-key-push/SKILL.md) - Push a local git repository to GitHub through a dedicated SSH key.
+- [github-codex-key](skills/engineering/github-codex-key/SKILL.md) \* - Use a configured GitHub SSH key safely from Codex or another coding agent.
+- [github-ssh-key-push](skills/engineering/github-ssh-key-push/SKILL.md) \* - Push a local git repository to GitHub through a dedicated SSH key.
 - [implement](skills/engineering/implement/SKILL.md) - Implement a piece of work based on a PRD or set of issues.
 - [improve-codebase-architecture](skills/engineering/improve-codebase-architecture/SKILL.md) - Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
 - [prototype](skills/engineering/prototype/SKILL.md) - Build a throwaway prototype to answer a design question.
