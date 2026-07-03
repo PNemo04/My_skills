@@ -125,7 +125,7 @@ npx skills@latest add PNemo04/My_skills
 ### Writing Polish
 
 - [humanizer](skills/writing-polish/humanizer/SKILL.md) - Revise AI-generated prose so it reads more naturally and less mechanically.
-- [prompt-optimizer](skills/writing-polish/prompt-optimizer/SKILL.md) - Optimize, strengthen, rewrite, audit, or improve LLM prompts.
+- [prompt-optimizer](skills/writing-polish/prompt-optimizer/SKILL.md) \* - Optimize, strengthen, rewrite, audit, or improve LLM prompts.
 
 ## How To Use
 
