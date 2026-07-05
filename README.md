@@ -15,7 +15,7 @@ Skills are organized by topic:
 |---|---|
 | `skills/research-writing` | Paper writing, rewriting, citation-aware manuscript work, and publication figures. |
 | `skills/research-ideation` | Brainstorming research ideas and finding new angles. |
-| `skills/research-artifacts` | Recording research provenance, compiling notes/logs, and reviewing rigor. |
+| `skills/research-artifacts` | Recording research provenance, compiling notes/logs, reviewing rigor, and building structured paper-reading note libraries. |
 | `skills/experiment-ml` | Running small ML experiments, fine-tuning, evaluation, tracking, and GPU feasibility checks. |
 | `skills/matlab` | MATLAB coding, testing, debugging, apps, databases, signal processing, and visualization. |
 | `skills/engineering` | Coding-agent workflows for implementation, review, debugging, GitHub, TDD, PRDs, and issues. |
@@ -39,6 +39,78 @@ npx skills@latest add PNemo04/My_skills
 4. Review machine-specific templates before use, especially `gpubox` and GitHub
    SSH workflows.
 
+## Featured Skill: research-paper-notes
+
+`research-paper-notes` is a workflow skill for turning a research topic or a set
+of papers into a navigable Markdown reading-note library. It is designed for
+three jobs I repeatedly need while doing research:
+
+- selecting papers around a topic instead of reading randomly;
+- producing a survey-style `notes/README.md` that links to detailed notes for
+  every paper;
+- studying how authors package their work, not only what the method does.
+
+The key difference from a normal paper summarizer is the packaging analysis.
+Each per-paper note must compare the plain underlying contribution with the
+story the authors use to make it publishable, including short source phrases
+that are useful for learning research writing.
+
+![research-paper-notes candidate list example](assets/research-paper-notes/candidate-list.svg)
+
+### Supported inputs
+
+Use it in three modes:
+
+| Input mode | What the skill does |
+|---|---|
+| Specific paper titles, PDFs, or links | Builds notes directly around the provided papers. |
+| A topic or research direction | Searches recent/top-tier/high-impact papers, proposes a candidate list, then waits for confirmation. |
+| Your own manuscript | Reads the manuscript, infers the closest topic and comparison space, then proposes related papers. |
+
+For topic-based tasks, the skill has a mandatory confirmation gate: it first
+lists candidate papers with venue/year, category, reason for inclusion, and
+links. Full notes are generated only after the user confirms or edits the list.
+
+### Output structure
+
+By default, it creates a library like this:
+
+```text
+papers/
+  01_category_name/
+  02_category_name/
+notes/
+  README.md
+  papers/
+    01_short_slug.md
+    02_short_slug.md
+.paper_text/
+```
+
+The overview note contains a research map, paper table, cross-paper comparisons,
+Mermaid diagrams when useful, writing-pattern summaries, and possible research
+directions. Each per-paper note includes method details, experiment details,
+limitations, future ideas, and a required packaging section.
+
+![research-paper-notes packaging table example](assets/research-paper-notes/packaging-table.svg)
+
+### Example prompts
+
+```text
+Use $research-paper-notes to build a paper-reading note library for
+misinformation detection. Start by listing candidate papers for confirmation.
+```
+
+```text
+Use $research-paper-notes. I will give you 12 paper titles; organize them into
+categories, download/read what you can, and generate Markdown notes.
+```
+
+```text
+Use $research-paper-notes on my manuscript. Infer the related topic, propose a
+paper list first, and emphasize writing/packaging lessons in the final notes.
+```
+
 ## Skill Index
 
 `\*` marks original skills or templates from my own workflow.
@@ -59,6 +131,7 @@ npx skills@latest add PNemo04/My_skills
 - [compiler](skills/research-artifacts/compiler/SKILL.md) - Compile papers, repositories, logs, code, or notes into a structured Agent-Native Research Artifact.
 - [research-manager](skills/research-artifacts/research-manager/SKILL.md) - Record research decisions, experiments, dead ends, claims, and provenance after a session.
 - [rigor-reviewer](skills/research-artifacts/rigor-reviewer/SKILL.md) - Review research artifacts for evidence quality, falsifiability, scope, coherence, exploration integrity, and rigor.
+- [research-paper-notes](skills/research-artifacts/research-paper-notes/SKILL.md) \* - Build topic-centered paper-reading note libraries with a survey overview, per-paper deep notes, and writing/packaging analysis.
 
 ### Experiment & ML
 

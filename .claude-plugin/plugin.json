@@ -11,6 +11,7 @@
     "./skills/research-artifacts/compiler",
     "./skills/research-artifacts/research-manager",
     "./skills/research-artifacts/rigor-reviewer",
+    "./skills/research-artifacts/research-paper-notes",
     "./skills/experiment-ml/gpubox",
     "./skills/experiment-ml/accelerate",
     "./skills/experiment-ml/bitsandbytes",

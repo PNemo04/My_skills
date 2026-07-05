@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="700" viewBox="0 0 1160 700" role="img" aria-labelledby="title desc">
+  <title id="title">research-paper-notes packaging table example</title>
+  <desc id="desc">A mock screenshot showing the packaging-before-and-after table required in each per-paper note.</desc>
+  <rect width="1160" height="700" rx="18" fill="#f7fafc"/>
+  <rect x="32" y="32" width="1096" height="636" rx="14" fill="#ffffff" stroke="#d8e2ea"/>
+  <text x="70" y="88" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#173b4a">Packaging Analysis</text>
+  <text x="70" y="124" font-family="Inter, Arial, sans-serif" font-size="17" fill="#61727d">Every paper note contrasts the plain essence with the author's publishable story.</text>
+  <rect x="70" y="158" width="1020" height="54" rx="8" fill="#eaf2f6"/>
+  <text x="92" y="190" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#173b4a">Plain Essence</text>
+  <text x="292" y="190" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#173b4a">Packaged Story</text>
+  <text x="530" y="190" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#173b4a">Source Phrase</text>
+  <text x="726" y="190" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#173b4a">Why It Works</text>
+  <text x="924" y="190" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#173b4a">Reusable Move</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="15" fill="#263238">
+    <rect x="70" y="220" width="1020" height="88" fill="#ffffff" stroke="#d8e2ea"/>
+    <text x="92" y="252">A new dataset</text>
+    <text x="92" y="274">with harder labels.</text>
+    <text x="292" y="244">A benchmark gap in</text>
+    <text x="292" y="266">real-world evidence</text>
+    <text x="292" y="288">reasoning.</text>
+    <text x="530" y="252">"dynamic,</text>
+    <text x="530" y="274">time-aware"</text>
+    <text x="726" y="252">Turns data collection</text>
+    <text x="726" y="274">into a capability claim.</text>
+    <text x="924" y="252">Name the missing</text>
+    <text x="924" y="274">evaluation axis.</text>
+    <rect x="70" y="308" width="1020" height="88" fill="#fbfdfe" stroke="#d8e2ea"/>
+    <text x="92" y="340">A classifier with</text>
+    <text x="92" y="362">extra retrieval.</text>
+    <text x="292" y="332">Detection becomes</text>
+    <text x="292" y="354">evidence-grounded</text>
+    <text x="292" y="376">investigation.</text>
+    <text x="530" y="340">"tool-augmented</text>
+    <text x="530" y="362">agent"</text>
+    <text x="726" y="340">Makes the workflow</text>
+    <text x="726" y="362">feel closer to humans.</text>
+    <text x="924" y="340">Upgrade the task</text>
+    <text x="924" y="362">from label to process.</text>
+    <rect x="70" y="396" width="1020" height="88" fill="#ffffff" stroke="#d8e2ea"/>
+    <text x="92" y="428">A model fails on</text>
+    <text x="92" y="450">style shifts.</text>
+    <text x="292" y="420">A robustness problem</text>
+    <text x="292" y="442">caused by shortcut</text>
+    <text x="292" y="464">learning.</text>
+    <text x="530" y="428">"truth over</text>
+    <text x="530" y="450">tricks"</text>
+    <text x="726" y="428">Frames errors as a</text>
+    <text x="726" y="450">general failure mode.</text>
+    <text x="924" y="428">Turn weakness into</text>
+    <text x="924" y="450">diagnostic protocol.</text>
+  </g>
+  <rect x="70" y="532" width="1020" height="82" rx="10" fill="#f4f8fa" stroke="#d8e2ea"/>
+  <text x="96" y="566" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#173b4a">Writing lesson</text>
+  <text x="96" y="594" font-family="Inter, Arial, sans-serif" font-size="16" fill="#40525c">Do not only summarize the method. Extract the narrative move that made the contribution feel necessary.</text>
+</svg>
