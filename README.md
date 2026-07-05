@@ -39,6 +39,8 @@ npx skills@latest add PNemo04/My_skills
 4. Review machine-specific templates before use, especially `gpubox` and GitHub
    SSH workflows.
 
+See [CHANGELOG.md](CHANGELOG.md) for repository updates.
+
 ## Featured Skill: research-paper-notes
 
 `research-paper-notes` is a workflow skill for turning a research topic or a set
