@@ -16,11 +16,45 @@ Recommended sections:
 2. **Storage And Category Structure**: show the paper categories and file layout.
 3. **Per-Paper Note Structure**: briefly define how each per-paper note is organized.
 4. **Paper Map**: table with ID, paper, venue/year, role, essence, note link.
-5. **Research Storyline**: optional Mermaid diagram if it improves readability.
-6. **Method Taxonomy**: optional Mermaid mindmap or table.
+5. **Research Storyline**: required Mermaid flowchart for libraries with three or more papers.
+6. **Method Taxonomy**: required Mermaid mindmap or flowchart for libraries with three or more papers.
 7. **Cross-Paper Comparison**: compare research problems, methods, assumptions, evidence, and limitations.
 8. **Writing And Packaging Patterns**: extract reusable writing strategies across papers.
 9. **Research Direction Candidates**: list research ideas inspired by the corpus.
+
+## Required Overview Diagrams
+
+For any library with three or more papers, include both diagrams unless the user explicitly disables Mermaid or the target renderer does not support it. If a diagram is omitted, state the reason in the overview note.
+
+### Research Storyline
+
+Use a Mermaid `flowchart` to show how the field moves from the old framing to new problem settings, benchmarks, methods, and open directions.
+
+```mermaid
+flowchart TB
+  A["Old framing"] --> B["New pressure or failure mode"]
+  B --> C["Benchmark or problem reformulation"]
+  C --> D["Method families"]
+  D --> E["Open research directions"]
+```
+
+### Method Taxonomy
+
+Use a Mermaid `mindmap` when the paper set naturally forms families. Use a `flowchart` only when the methods form a pipeline or staged evolution.
+
+```mermaid
+mindmap
+  root((Topic))
+    Benchmarking
+      Paper A
+      Paper B
+    Reasoning Methods
+      Paper C
+    Robustness And Adaptation
+      Paper D
+    Retrieval Or Agent Workflows
+      Paper E
+```
 
 ## Per-Paper Note
 

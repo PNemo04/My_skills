@@ -42,11 +42,12 @@ Read `references/search-selection.md` before searching or proposing a paper list
 2. **Collect sources**: prefer primary sources and stable metadata, including conference proceedings, ACL Anthology, OpenReview, arXiv, DOI/publisher pages, official project pages, and author-released code/data pages.
 3. **Create a candidate list**: categorize papers by research role rather than only chronology.
 4. **Confirm the list**: ask the user to approve, remove, add, or reorder papers.
-5. **Organize files**: save PDFs and notes under a clean topic workspace. Preserve existing user files and do not overwrite unrelated notes.
-6. **Read each paper**: extract text from the PDF when possible; use the original PDF for method, experiment, table, and writing claims.
-7. **Write the overview note**: create a survey-style map that links to each per-paper note.
-8. **Write per-paper notes**: every note must be detailed; do not split content into "brief" and "deep reading" sections.
-9. **Verify navigation and completeness**: check that overview links, per-paper links, PDFs, numbering, and note sections are consistent.
+5. **Choose and announce the output root**: follow `references/workspace-layout.md` to choose the note library root. Do not treat any example path as hard-coded. State the output root before writing files.
+6. **Organize files**: save PDFs and notes under that topic workspace. Preserve existing user files and do not overwrite unrelated notes.
+7. **Read each paper**: extract text from the PDF when possible; use the original PDF for method, experiment, table, and writing claims.
+8. **Write the overview note**: create a survey-style map that links to each per-paper note. For multi-paper libraries, include the required Mermaid research storyline and method taxonomy diagrams from `references/note-schema.md`.
+9. **Write per-paper notes**: every note must be detailed; do not split content into "brief" and "deep reading" sections.
+10. **Verify navigation and completeness**: check that overview links, per-paper links, PDFs, numbering, required overview diagrams, and note sections are consistent.
 
 Read `references/note-schema.md` before writing the overview or per-paper notes.
 Read `references/workspace-layout.md` before creating or reorganizing files.
@@ -88,7 +89,7 @@ The overview note should include:
 - topic-level thesis;
 - classification/storage map;
 - paper table with links;
-- Mermaid diagrams where they improve readability;
+- Mermaid research storyline and method taxonomy diagrams for multi-paper libraries;
 - cross-paper comparison tables;
 - writing and packaging pattern summary;
 - research direction candidates.
