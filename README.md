@@ -95,7 +95,7 @@ libraries, writing-pattern summaries, and possible research directions. Each
 per-paper note includes method details, experiment details, limitations, future
 ideas, and a required packaging section.
 
-![research-paper-notes method taxonomy example](assets/research-paper-notes/method-taxonomy.svg)
+![research-paper-notes method taxonomy example](assets/research-paper-notes/method-taxonomy.png)
 
 ![research-paper-notes packaging table example](assets/research-paper-notes/packaging-table.svg)
 
