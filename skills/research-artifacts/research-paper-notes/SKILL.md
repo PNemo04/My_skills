@@ -1,6 +1,6 @@
 ---
 name: research-paper-notes
-description: "Build topic-centered Markdown research-paper reading notes with a survey overview and per-paper deep notes. Use when the user asks to create, expand, or restructure paper-reading notes from: (1) specific paper titles, PDFs, or links, (2) a research topic, or (3) the user's own paper from which Codex should infer a related topic. The workflow emphasizes paper selection, source-backed reading, method and experiment explanation, and especially writing/positioning analysis that contrasts the paper's plain underlying contribution with the authors' packaged story."
+description: "Build topic-centered Markdown research-paper reading notes with a survey overview and per-paper deep notes. Use when the user asks to create, expand, or restructure paper-reading notes from: (1) specific paper titles, PDFs, or links, (2) a research topic, or (3) the user's own paper from which the agent should infer a related topic. The workflow emphasizes paper selection, source-backed reading, method and experiment explanation, and especially writing/positioning analysis that contrasts the paper's plain underlying contribution with the authors' packaged story."
 ---
 
 # Research Paper Notes
@@ -45,9 +45,10 @@ Read `references/search-selection.md` before searching or proposing a paper list
 5. **Choose and announce the output root**: follow `references/workspace-layout.md` to choose the note library root. Do not treat any example path as hard-coded. State the output root before writing files.
 6. **Organize files**: save PDFs and notes under that topic workspace. Preserve existing user files and do not overwrite unrelated notes.
 7. **Read each paper**: extract text from the PDF when possible; use the original PDF for method, experiment, table, and writing claims.
-8. **Write the overview note**: create a survey-style map that links to each per-paper note. For multi-paper libraries, include the required Mermaid research storyline and method taxonomy diagrams from `references/note-schema.md`.
-9. **Write per-paper notes**: every note must be detailed; do not split content into "brief" and "deep reading" sections.
-10. **Verify navigation and completeness**: check that overview links, per-paper links, PDFs, numbering, required overview diagrams, and note sections are consistent.
+8. **Use subagents when supported**: for full note libraries, delegate category-level reading/synthesis passes to subagents or parallel worker agents when the host system supports them. Assign each worker one research category or method family, with all papers in that category. Require each worker to produce a category synthesis plus source-grounded per-paper reading notes for method, experiments, limitations, and packaging moves. If subagents are unavailable, read categories sequentially and state that fallback.
+9. **Write the overview note**: create a survey-style map that links to each per-paper note. For multi-paper libraries, include the required Mermaid research storyline and method taxonomy diagrams from `references/note-schema.md`.
+10. **Write per-paper notes**: every note must be detailed; do not split content into "brief" and "deep reading" sections.
+11. **Verify navigation and completeness**: check that overview links, per-paper links, PDFs, numbering, required overview diagrams, and note sections are consistent.
 
 Read `references/note-schema.md` before writing the overview or per-paper notes.
 Read `references/workspace-layout.md` before creating or reorganizing files.
